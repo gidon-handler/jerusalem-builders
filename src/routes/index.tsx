@@ -32,9 +32,7 @@ function HomePage() {
       {/* ─── Navbar ─── */}
       <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 md:px-12 py-4 bg-[#0a0a0f]/80 backdrop-blur-xl border-b border-white/5">
         <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center font-bold text-black text-sm">
-            BYC
-          </div>
+          <img src="logo.png" className="rounded-lg w-9 h-9" />
           <span className="font-bold text-sm md:text-base tracking-wide text-white/90">
             {tx.companyName}
           </span>
