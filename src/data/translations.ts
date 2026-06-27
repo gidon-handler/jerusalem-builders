@@ -3,7 +3,7 @@ export type Lang = 'en' | 'he'
 export const t = {
   en: {
     dir: 'ltr' as const,
-    companyName: 'Bnei Yerushalayim Construction',
+    companyName: 'Jerusalem Builders',
     companyTagline: 'Building the Future of Jerusalem',
     companyDesc:
       'Premium construction and renovation services in Jerusalem. We bring decades of expertise to every project — from luxury interiors to fortified safe rooms.',
@@ -153,13 +153,13 @@ export const t = {
       hours: 'Sun–Thu 8:00–18:00',
     },
     footer: {
-      rights: '© 2025 Bnei Yerushalayim Construction. All rights reserved.',
+      rights: '© 2025 Jerusalem Builders. All rights reserved.',
       tagline: 'Building Jerusalem\'s future, one stone at a time.',
     },
   },
   he: {
     dir: 'rtl' as const,
-    companyName: 'בני ירושלים בנייה',
+    companyName: 'בוני ירושלים',
     companyTagline: 'בונים את עתיד ירושלים',
     companyDesc:
       'שירותי בנייה ושיפוץ פרימיום בירושלים. אנו מביאים עשרות שנות ניסיון לכל פרויקט — מעיצוב פנים יוקרתי עד חדרי ממ"ד מבוצרים.',
