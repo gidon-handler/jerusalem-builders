@@ -1,0 +1,56 @@
+@import "tailwindcss" source("../");
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&display=swap');
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #0a0a0f;
+  color: #ffffff;
+}
+
+:lang(he) body,
+.font-hebrew {
+  font-family: 'Heebo', system-ui, -apple-system, sans-serif;
+}
+
+html[dir="rtl"] .group-hover\:translate-x-1:hover {
+  --tw-translate-x: -0.25rem;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0f;
+}
+::-webkit-scrollbar-thumb {
+  background: #f59e0b40;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f59e0b80;
+}
+
+/* Line clamp utility */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Subtle texture overlay */
+.bg-white\/3 {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.border-white\/8 {
+  border-color: rgba(255, 255, 255, 0.08);
+}
