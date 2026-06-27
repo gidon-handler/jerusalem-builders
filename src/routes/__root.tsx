@@ -25,7 +25,7 @@ export const Route = createRootRoute({
     meta: [
       { charSet: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { title: 'Bnei Yerushalayim Construction | בני ירושלים בנייה' },
+      { title: 'Jerusalem Builders | בוני ירושלים בנייה' },
       {
         name: 'description',
         content:
